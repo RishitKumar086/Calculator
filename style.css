@@ -9,17 +9,29 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(#fb8500,#f4a261,#ffb703);
+    background-image: linear-gradient(#03045e,#023e8a,#0096c7);
 }
 
 .calc{
     width: 500px;
     height: 500px;
-    background-color: #000;
+    background-color: #344e41;
     transition: box-shadow 0.4s linear ;
-    border-radius: 15px;
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: start;
 }
 
 .calc:hover{
-    box-shadow: -10px 10px 5px 5px rgb(232, 11, 11);
+    box-shadow: -10px 10px 5px 5px #80ed99;
+}
+
+.calc__display{
+    margin: 0.9em;
+    width:470px;
+    height: 100px;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
