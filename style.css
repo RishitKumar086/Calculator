@@ -16,9 +16,10 @@ body{
     width: 500px;
     height: 500px;
     background-color: #000;
-    
+    transition: box-shadow 0.4s linear ;
+    border-radius: 15px;
 }
 
 .container:hover{
-    box-shadow: -10px 5px 5px 5px rgb(232, 11, 11);
+    box-shadow: -10px 10px 5px 5px rgb(232, 11, 11);
 }
