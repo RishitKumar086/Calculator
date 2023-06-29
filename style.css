@@ -12,7 +12,7 @@ body{
     background-image: linear-gradient(#fb8500,#f4a261,#ffb703);
 }
 
-.container{
+.calc{
     width: 500px;
     height: 500px;
     background-color: #000;
@@ -20,6 +20,6 @@ body{
     border-radius: 15px;
 }
 
-.container:hover{
+.calc:hover{
     box-shadow: -10px 10px 5px 5px rgb(232, 11, 11);
 }
