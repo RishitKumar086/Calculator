@@ -4,3 +4,21 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(#fb8500,#f4a261,#ffb703);
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    
+}
+
+.container:hover{
+    box-shadow: -10px 5px 5px 5px rgb(232, 11, 11);
+}
