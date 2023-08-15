@@ -4,6 +4,7 @@ const display = document.querySelector("#display");
 console.log(number);
 console.log(operator);
 console.dir(display);
+
 for (let num of number) {
   num.addEventListener("click", function () {
     console.log("Number button pressed");
@@ -11,15 +12,22 @@ for (let num of number) {
     // console.log(typeof num.innerHTML);
     // num.innerHTML is a string
     // display.innerHTML=12
-    if (display.innerHTML == "0") {
+    if (display.innerHTML === "0") {
       display.innerHTML = "";
     }
     display.innerHTML += num.innerHTML;
   });
 }
+
 for (let opt of operator) {
   opt.addEventListener("click", function () {
     console.log("Operator button pressed");
+    // console.log(opt.dataset.action);
+    const action = opt.dataset.action;
+    // console.log(typeof action);
+    if (action === "allclear") {
+      display.innerHTML = "0";
+    }
   });
 }
 
