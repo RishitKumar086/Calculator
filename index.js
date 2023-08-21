@@ -63,9 +63,10 @@ for (let opt of operator) {
         display.innerHTML = n1 / n2;
       }
     }
-    if ((action = "delete")) {
-      //delete functionality in calculator for deleting one number
-    }
+    // if (action = "delete") {
+    //   //delete functionality in calculator for deleting one number
+    //   //will add it later
+    // }
   });
 }
 
