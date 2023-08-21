@@ -64,7 +64,7 @@ for (let opt of operator) {
       }
     }
     if ((action = "delete")) {
-      
+      //delete functionality in calculator for deleting one number
     }
   });
 }
